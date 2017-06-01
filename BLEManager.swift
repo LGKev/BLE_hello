@@ -82,7 +82,7 @@ class BLEHandler: NSObject, CBCentralManagerDelegate{
     
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
         peripheral.discoverServices(nil)
-        print("You're In Like Flynn")
+        print("You're In Like Flynn`")
     }
     
     

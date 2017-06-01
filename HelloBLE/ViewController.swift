@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var bleManager: BLEManager!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        bleManager = BLEManager()
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -68,6 +68,8 @@ class BLEHandler: NSObject, CBCentralManagerDelegate{
             return // not valid so we return out
         }
         
+        //test 
+        
         let device = peripheral.name
         
         
